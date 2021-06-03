@@ -9,17 +9,19 @@ const styles = StyleSheet.create({
         marginTop: '30%',
         width: '100%',
         alignItems: 'center',
+        
     },
     title: {
         fontSize: 40,
         fontWeight: '500',
+        color: '#ff0000'
     },
     subtitleCTA: {
         textDecorationLine: 'underline',
     },
     subtitle: {
         fontSize: 16,
-        color: '#5c5e62'
+        color: '#ff0000'
     },
 
     image: {
