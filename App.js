@@ -5,18 +5,18 @@ import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      
+
       <View style={styles.carContainer}>
-        
-        <ImageBackground source={require('./assets/images/ModelX.jpeg')} 
+
+        <ImageBackground source={require('./assets/images/ModelS.jpeg')}
           style={styles.image}
-      />  
+        />
         <View style={styles.titles}>
-          <Text style={styles.title}>Model S</Text>
+          <Text style={styles.title}>Model X</Text>
           <Text style={styles.subtitle}>Starting at $69,420</Text>
         </View>
       </View>
-      <StatusBar style="auto"/>
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -33,19 +33,19 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
   },
-  
+
   titles: {
     marginTop: '30%',
     width: '100%',
     alignItems: 'center'
   },
-  
+
   title: {
     fontSize: 40,
     fontWeight: '500'
-    
+
   },
-  
+
   subtitle: {
     fontSize: 16,
     color: '#5c5e62'
@@ -58,6 +58,6 @@ const styles = StyleSheet.create({
     position: 'absolute'
 
   }
-  
+
 });
 
