@@ -1,25 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { Header } from 'react-native/Libraries/NewAppScreen';
+import CarItem from './components/CarItem';
 
 export default function App() {
   return (
     <View style={styles.container}>
-
-      <View style={styles.carContainer}>
-
-        <ImageBackground source={require('./assets/images/ModelS.jpeg')}
-          style={styles.image}
-        />
-        <View style={styles.titles}>
-          <Text style={styles.title}>Model X</Text>
-          <Text style={styles.subtitle}>Starting at $69,420</Text>
-        </View>
-      </View>
-      <StatusBar style="auto" />
-    </View>
-  );
+      <Header />
+      <CarItem></CarItem>
+    <StatusBar style="auto" />
+  </View>
+);
 }
+
 
 const styles = StyleSheet.create({
   container: {
