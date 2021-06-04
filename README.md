@@ -1,7 +1,8 @@
 
 # CAR HUNTER
 
-Car Hunter is a car buying website. You can buy the car in online and see the car details.
+Car Hunter is a car buying website. You can buy the car in online and see the car details. This app is built using
+React Native.
 
 
 ## Screenshots
